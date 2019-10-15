@@ -1,0 +1,43 @@
+.btn{
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: $font-size-paragraph;
+  text-transform: uppercase;
+  //padding: .5rem 3.125rem;
+  border-radius: 1.25rem;
+
+}
+.btn-success{
+  background-color: $color-primary;
+  color: $color-white;
+
+  &:hover{
+    color: $color-primary;
+    background-color: $color-white;
+    border-color: $color-primary;
+  }
+}
+
+.nav-pills .nav-link {
+   color: $color-black;
+   font-family: "Montserrat-Medium", sans-serif;
+   padding: .5rem 3.125rem;
+   border: 1px solid transparent;
+   border-radius: 1.25rem;
+
+  &:hover{
+    color: $color-primary;
+  }
+ }
+
+.btn-outline-success, .nav-pills .nav-link.active{
+  color: $color-primary;
+  background-color: transparent;
+  border-color: $color-primary;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
+}
+

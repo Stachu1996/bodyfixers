@@ -1,0 +1,30 @@
+.my-50{
+  margin: 3.125rem 0;
+}
+.mt-50{
+  margin-top: 3.125rem;
+}
+.mb-50{
+  margin-bottom: 3.125rem;
+}
+.my-100{
+  margin: 6.25rem 0;
+}
+.mt-100{
+  margin-top: 6.25rem;
+}
+.mb-100{
+  margin-bottom: 6.25rem;
+}
+.box-shadow{
+  box-shadow: $box-shadow;
+}
+.box-shadow-light{
+  box-shadow: $box-shadow-light;
+}
+.text-success{
+  color: $color-primary !important;
+}
+.bg-success{
+  background-color: $color-primary !important;
+}

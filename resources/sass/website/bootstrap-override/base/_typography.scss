@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url('../../../../assets/fonts/Montserrat-Regular.ttf')  format('truetype')
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url('../fonts/Montserrat-Medium.ttf')  format('truetype')
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url('../fonts/Montserrat-SemiBold.ttf')  format('truetype')
+}
+p{
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: $font-size-paragraph;
+}
+h1{
+  font-family: "Montserrat-SemiBold", sans-serif;
+}
+
+h2, h3, h4, h5{
+  font-family: "Montserrat-SemiBold", sans-serif;
+}
+
+li{
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: $font-size-paragraph;
+
+  span{
+    font-family: "Montserrat-Medium", sans-serif;
+  }
+}
+.dropdown-item{
+  font-size: $font-size-footer;
+  font-family: "Montserrat-Regular", sans-serif;
+}
+a{
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: $font-size-paragraph;
+  &:hover{
+	text-decoration: none;
+  }
+}

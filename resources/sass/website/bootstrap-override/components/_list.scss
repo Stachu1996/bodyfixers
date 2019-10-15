@@ -1,0 +1,12 @@
+.list-success{
+  list-style: none;
+  & li::before {
+    content: "\2022";
+    color: $color-primary;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1em;
+  }
+}

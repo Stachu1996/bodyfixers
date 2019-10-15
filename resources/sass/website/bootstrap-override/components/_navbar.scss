@@ -1,0 +1,19 @@
+.navbar-light{
+  background-color: $color-white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: $color-black;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: $font-size-paragraph;
+  text-transform: uppercase;
+  &:hover{
+    color: $color-primary;
+  }
+
+}
+.navbar-light .navbar-nav .active>.nav-link{
+   color: $color-primary;
+   font-family: "Montserrat-SemiBold", sans-serif;
+   font-weight: 600;
+ }

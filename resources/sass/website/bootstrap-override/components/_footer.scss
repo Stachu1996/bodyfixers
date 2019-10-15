@@ -1,0 +1,19 @@
+footer .navbar-nav .nav-link{
+  color: $color-black;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: $font-size-footer;
+  text-transform: uppercase;
+  &:hover{
+    color: $color-primary;
+  }
+
+}
+.footer-copyright{
+  color: $color-black;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: $font-size-footer;
+
+  & a{
+    color: $color-primary;
+  }
+}
