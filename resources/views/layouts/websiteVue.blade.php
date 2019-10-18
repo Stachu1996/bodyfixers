@@ -28,7 +28,7 @@
 
 <body style="overflow-x: hidden; position: relative; padding-top: 76px" data-spy="scroll" data-target=".navbar" data-offset="70">
 
-@include('layouts.include.website-header')
+@include('layouts.include.website-header-not-on-mobile')
 
 <div class="container" id="app">
     @yield('content')

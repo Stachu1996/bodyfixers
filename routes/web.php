@@ -25,7 +25,9 @@ Route::get('regulamin', function () { return view('website.regulations'); })->na
  */
 Route::group(['prefix' => 'zamawianie'], function (){
     Route::get('/', 'Order\OrderController@index')->name('order.index');
+    Route::get('packets', 'Order\OrderController@getPackets')->name('order.getPackets');
 });
+Route::get('cart', 'Order\CartController@getCart')->name('cart.getCart');
 
 /**
  * DASHBOARD

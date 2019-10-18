@@ -25,6 +25,11 @@ class PacketRepository extends BaseRepository implements PacketContract
         return $this->all($columns, $order, $sort);
     }
 
+    public function listPacketsForOrder()
+    {
+        return $this->model->with('variants')->where('active', 1)->orderBy('name', 'asc')->get();
+    }
+
     public function findPacketById(int $id)
     {
         try{

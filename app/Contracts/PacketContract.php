@@ -14,6 +14,8 @@ interface PacketContract
 {
     public function listPackets(string $order = 'id', string $sort = 'desc', array $columns = ['*']);
 
+    public function listPacketsForOrder();
+
     public function findPacketById(int $id);
 
     public function createPacket(array $params);

@@ -2,7 +2,6 @@
     "/js/dashboard.js": "/js/dashboard.js",
     "/js/ordering.js": "/js/ordering.js",
     "/js/website.js": "/js/website.js",
-    "/css/website.css": "/css/website.css",
     "/css/base.css": "/css/base.css",
     "/favicon/android-chrome-192x192.png": "/favicon/android-chrome-192x192.png",
     "/favicon/android-chrome-512x512.png": "/favicon/android-chrome-512x512.png",
@@ -23,5 +22,6 @@
     "/js/vendors/jquery.min.js": "/js/vendors/jquery.min.js",
     "/js/vendors/jquery.min.map": "/js/vendors/jquery.min.map",
     "/css/vendors/dataTables.bootstrap4.css": "/css/vendors/dataTables.bootstrap4.css",
-    "/css/vendors/dataTables.bootstrap4.min.css": "/css/vendors/dataTables.bootstrap4.min.css"
+    "/css/vendors/dataTables.bootstrap4.min.css": "/css/vendors/dataTables.bootstrap4.min.css",
+    "/css/website.css": "/css/website.css"
 }
