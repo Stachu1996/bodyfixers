@@ -1,4 +1,4 @@
-# Bodyfixers - **project banished**
+# Bodyfixers - **project <span color='red'>banished</span>**
 
 ## About Project
 
